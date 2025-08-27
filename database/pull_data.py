@@ -3,10 +3,15 @@ import os
 from dotenv import load_dotenv
 import pandas as pd
 from utils.logger_helper import set_logger
+from utils.config_helper import get_config
 
 load_dotenv()
 
-logger = set_logger("pull_logger","logs/logs.txt")
+config = get_config()
+
+logger = set_logger(config["log_paths"]["pull_data_path"],config["log_name"]["pull_data_log"])
+
+print(logger)
 
 
 def get_new_data():
