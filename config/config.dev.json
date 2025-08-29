@@ -2,12 +2,14 @@
 
   "log_paths": {
     "pull_data_path": "logs/logs.txt",
-    "train_path": "logs/logs.txt"
+    "train_path": "logs/logs.txt",
+    "automated_loop_path": "logs/logs.txt"
   },
 
   "log_name": {
     "pull_data_log" : "pull_data_log",
-    "train_log" : "train_log"
+    "train_log" : "train_log",
+    "automated_loop_log" : "train_log"
   },
 
   "trained_models_filename": {

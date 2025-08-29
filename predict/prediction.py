@@ -10,7 +10,8 @@ df = get_new_data()
 
 def test_prediction(model, df):
    data = df.copy()
-   new_data = data.drop(["Total_Score","Grade"], axis=1)
+   
+   new_data = data.drop(["Total_Score"], axis=1)
    predictions = model.predict(new_data)
    return predictions
 
