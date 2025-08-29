@@ -765,3 +765,159 @@ train_log - 2025-08-29 12:52:06,388 - INFO - the model best estimator = Pipeline
                                feature_fraction=0.8))])
 train_log - 2025-08-29 12:52:06,435 - INFO - Test RMSE: 4.523
 train_log - 2025-08-29 12:52:06,435 - INFO - Test R²: 0.622
+train_log - 2025-08-29 15:13:56,454 - INFO - waiting for 60 to get new rows!
+train_log - 2025-08-29 15:13:56,456 - INFO - beggininig to get new rows at 2025-08-29 15:13:56.456462
+train_log - 2025-08-29 15:13:56,456 - INFO - strting the backgroup loop!!!
+train_log - 2025-08-29 15:13:56,457 - ERROR - invalid literal for int() with base 10: 'Emmanuel-3102localhost:3306'
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\my_projects\new_german\loop\automated_loop.py", line 24, in get_new_rows
+    engine= db_conn()
+            ^^^^^^^^^
+  File "C:\Users\HP\Desktop\my_projects\new_german\database\pull_data.py", line 35, in db_conn
+    engine = create_engine(db_url)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 2, in create_engine
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\util\deprecations.py", line 281, in warned
+    return fn(*args, **kwargs)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\create.py", line 549, in create_engine
+    u = _url.make_url(url)
+        ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\url.py", line 856, in make_url
+    return _parse_url(name_or_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\url.py", line 917, in _parse_url
+    components["port"] = int(components["port"])
+                         ^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Emmanuel-3102localhost:3306'
+train_log - 2025-08-29 15:13:56,473 - INFO - waiting for 60
+train_log - 2025-08-29 15:14:50,078 - INFO - waiting for 60 to get new rows!
+train_log - 2025-08-29 15:14:50,078 - INFO - beggininig to get new rows at 2025-08-29 15:14:50.078819
+train_log - 2025-08-29 15:14:50,079 - INFO - strting the backgroup loop!!!
+train_log - 2025-08-29 15:14:50,079 - ERROR - invalid literal for int() with base 10: 'Emmanuel-3102localhost:3306'
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\my_projects\new_german\loop\automated_loop.py", line 24, in get_new_rows
+    engine= db_conn()
+            ^^^^^^^^^
+  File "C:\Users\HP\Desktop\my_projects\new_german\database\pull_data.py", line 35, in db_conn
+    engine = create_engine(db_url)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 2, in create_engine
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\util\deprecations.py", line 281, in warned
+    return fn(*args, **kwargs)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\create.py", line 549, in create_engine
+    u = _url.make_url(url)
+        ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\url.py", line 856, in make_url
+    return _parse_url(name_or_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\url.py", line 917, in _parse_url
+    components["port"] = int(components["port"])
+                         ^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Emmanuel-3102localhost:3306'
+train_log - 2025-08-29 15:14:50,088 - INFO - waiting for 60
+train_log - 2025-08-29 15:15:50,091 - INFO - waiting for 60 to get new rows!
+train_log - 2025-08-29 15:15:50,094 - INFO - beggininig to get new rows at 2025-08-29 15:15:50.094208
+train_log - 2025-08-29 15:15:50,095 - INFO - strting the backgroup loop!!!
+train_log - 2025-08-29 15:15:50,097 - ERROR - invalid literal for int() with base 10: 'Emmanuel-3102localhost:3306'
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\my_projects\new_german\loop\automated_loop.py", line 24, in get_new_rows
+    engine= db_conn()
+            ^^^^^^^^^
+  File "C:\Users\HP\Desktop\my_projects\new_german\database\pull_data.py", line 35, in db_conn
+    engine = create_engine(db_url)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 2, in create_engine
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\util\deprecations.py", line 281, in warned
+    return fn(*args, **kwargs)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\create.py", line 549, in create_engine
+    u = _url.make_url(url)
+        ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\url.py", line 856, in make_url
+    return _parse_url(name_or_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\url.py", line 917, in _parse_url
+    components["port"] = int(components["port"])
+                         ^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Emmanuel-3102localhost:3306'
+train_log - 2025-08-29 15:15:50,155 - INFO - waiting for 60
+train_log - 2025-08-29 15:16:50,157 - INFO - waiting for 60 to get new rows!
+train_log - 2025-08-29 15:16:50,158 - INFO - beggininig to get new rows at 2025-08-29 15:16:50.158373
+train_log - 2025-08-29 15:16:50,160 - INFO - strting the backgroup loop!!!
+train_log - 2025-08-29 15:16:50,161 - ERROR - invalid literal for int() with base 10: 'Emmanuel-3102localhost:3306'
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\my_projects\new_german\loop\automated_loop.py", line 24, in get_new_rows
+    engine= db_conn()
+            ^^^^^^^^^
+  File "C:\Users\HP\Desktop\my_projects\new_german\database\pull_data.py", line 35, in db_conn
+    engine = create_engine(db_url)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 2, in create_engine
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\util\deprecations.py", line 281, in warned
+    return fn(*args, **kwargs)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\create.py", line 549, in create_engine
+    u = _url.make_url(url)
+        ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\url.py", line 856, in make_url
+    return _parse_url(name_or_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\url.py", line 917, in _parse_url
+    components["port"] = int(components["port"])
+                         ^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Emmanuel-3102localhost:3306'
+train_log - 2025-08-29 15:16:50,250 - INFO - waiting for 60
+train_log - 2025-08-29 15:17:50,252 - INFO - waiting for 60 to get new rows!
+train_log - 2025-08-29 15:17:50,254 - INFO - beggininig to get new rows at 2025-08-29 15:17:50.254220
+train_log - 2025-08-29 15:17:50,256 - INFO - strting the backgroup loop!!!
+train_log - 2025-08-29 15:17:50,258 - ERROR - invalid literal for int() with base 10: 'Emmanuel-3102localhost:3306'
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\my_projects\new_german\loop\automated_loop.py", line 24, in get_new_rows
+    engine= db_conn()
+            ^^^^^^^^^
+  File "C:\Users\HP\Desktop\my_projects\new_german\database\pull_data.py", line 35, in db_conn
+    engine = create_engine(db_url)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 2, in create_engine
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\util\deprecations.py", line 281, in warned
+    return fn(*args, **kwargs)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\create.py", line 549, in create_engine
+    u = _url.make_url(url)
+        ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\url.py", line 856, in make_url
+    return _parse_url(name_or_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\url.py", line 917, in _parse_url
+    components["port"] = int(components["port"])
+                         ^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Emmanuel-3102localhost:3306'
+train_log - 2025-08-29 15:17:50,284 - INFO - waiting for 60
+train_log - 2025-08-29 15:18:50,286 - INFO - waiting for 60 to get new rows!
+train_log - 2025-08-29 15:18:50,287 - INFO - beggininig to get new rows at 2025-08-29 15:18:50.287165
+train_log - 2025-08-29 15:18:50,288 - INFO - strting the backgroup loop!!!
+train_log - 2025-08-29 15:18:50,289 - ERROR - invalid literal for int() with base 10: 'Emmanuel-3102localhost:3306'
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\my_projects\new_german\loop\automated_loop.py", line 24, in get_new_rows
+    engine= db_conn()
+            ^^^^^^^^^
+  File "C:\Users\HP\Desktop\my_projects\new_german\database\pull_data.py", line 35, in db_conn
+    engine = create_engine(db_url)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 2, in create_engine
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\util\deprecations.py", line 281, in warned
+    return fn(*args, **kwargs)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\create.py", line 549, in create_engine
+    u = _url.make_url(url)
+        ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\url.py", line 856, in make_url
+    return _parse_url(name_or_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\url.py", line 917, in _parse_url
+    components["port"] = int(components["port"])
+                         ^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Emmanuel-3102localhost:3306'
+train_log - 2025-08-29 15:18:50,354 - INFO - waiting for 60

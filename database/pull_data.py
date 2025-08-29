@@ -29,3 +29,9 @@ def get_new_data():
     logger.exception(e)
     
 
+def db_conn():
+  db_url = f"mysql+pymysql://{os.getenv('db_username')}:{os.getenv('db_password')}@{os.getenv('db_host')}:{os.getenv('db_port')}/{os.getenv('db_database')}"
+
+  engine = create_engine(db_url)
+
+  return engine
