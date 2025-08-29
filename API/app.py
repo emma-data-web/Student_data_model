@@ -17,15 +17,16 @@ app = Flask(__name__)
 @app.route('/test', methods =['GET'])
 
 def show():
-   return 'server is running, ada'
+   return 'server is running'
 
 
 @app.route("/predict", methods= ["POST"])
 
 def get_predictions():
     try:
+      logger.info(f"starting to predict!!")
       data = request.get_json() 
-
+      logger.info(f"{len(data)} keys recieved!")
       inputed_data =pd.DataFrame([data], columns=['Gender', 'Age',
           'Department', 'Attendance (%)', 'Midterm_Score',
           'Assignments_Avg', 'Quizzes_Avg', 'Participation_Score',
@@ -35,9 +36,12 @@ def get_predictions():
           'Sleep_Hours_per_Night']) 
       predictions = model.predict(inputed_data)
       
+      logger.info(f"{prediction} is the predictions")
+      
       prediction = np.array(predictions).tolist()
+      
       return jsonify({'prediction': prediction[0]})
-    
+      
     except Exception as e:
        return jsonify({f"the error -- {e}"}), 400
     
