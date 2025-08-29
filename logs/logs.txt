@@ -921,3 +921,23 @@ Traceback (most recent call last):
                          ^^^^^^^^^^^^^^^^^^^^^^^
 ValueError: invalid literal for int() with base 10: 'Emmanuel-3102localhost:3306'
 train_log - 2025-08-29 15:18:50,354 - INFO - waiting for 60
+train_log - 2025-08-29 15:20:00,560 - INFO - waiting for 60 to get new rows!
+train_log - 2025-08-29 15:20:00,562 - INFO - beggininig to get new rows at 2025-08-29 15:20:00.562017
+train_log - 2025-08-29 15:20:00,562 - INFO - strting the backgroup loop!!!
+train_log - 2025-08-29 15:20:03,127 - INFO - 5000 new rows were found!!
+train_log - 2025-08-29 15:20:03,130 - INFO - waiting for 60
+train_log - 2025-08-29 15:21:03,131 - INFO - waiting for 60 to get new rows!
+train_log - 2025-08-29 15:21:03,131 - INFO - beggininig to get new rows at 2025-08-29 15:21:03.131634
+train_log - 2025-08-29 15:21:03,135 - INFO - strting the backgroup loop!!!
+train_log - 2025-08-29 15:21:34,235 - INFO - No new rows founds!!
+train_log - 2025-08-29 15:21:34,235 - INFO - waiting for 60
+train_log - 2025-08-29 15:22:34,236 - INFO - waiting for 60 to get new rows!
+train_log - 2025-08-29 15:22:34,239 - INFO - beggininig to get new rows at 2025-08-29 15:22:34.238376
+train_log - 2025-08-29 15:22:34,240 - INFO - strting the backgroup loop!!!
+train_log - 2025-08-29 15:22:57,782 - INFO - No new rows founds!!
+train_log - 2025-08-29 15:22:57,783 - INFO - waiting for 60
+train_log - 2025-08-29 15:23:57,784 - INFO - waiting for 60 to get new rows!
+train_log - 2025-08-29 15:23:57,785 - INFO - beggininig to get new rows at 2025-08-29 15:23:57.785558
+train_log - 2025-08-29 15:23:57,788 - INFO - strting the backgroup loop!!!
+train_log - 2025-08-29 15:24:24,788 - INFO - No new rows founds!!
+train_log - 2025-08-29 15:24:24,788 - INFO - waiting for 60
