@@ -11,7 +11,7 @@
     "pull_data_log" : "pull_data_log",
     "train_log" : "train_log",
     "automated_loop_log" : "train_log",
-    "API_log" : "train_log"
+    "API_log" : "API_logs"
   },
 
   "trained_models_filename": {

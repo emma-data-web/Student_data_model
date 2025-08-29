@@ -2,7 +2,7 @@ import requests
 
 url = "http://127.0.0.1:5000/predict"
 
-data = {
+datas = {
    "Gender": "Male",
    "Age": 21,
    "Department": "Engineering",
@@ -21,7 +21,7 @@ data = {
    "Sleep_Hours_per_Night": 7
 }
 
-response = requests.post(url, json=data)
+response = requests.post(url, json=datas)
 
 print("Status code:", response.status_code)
 print("Response text:", response.text)

@@ -1,11 +1,14 @@
 from flask import Flask, jsonify, request
 import pandas as pd
 import numpy as np
+from utils.logger_helper import set_logger
 from database.pull_data import get_new_data
 import joblib
 from utils.config_helper import get_config
 
 config = get_config()
+
+logger = set_logger(config["log_name"]["API_log"], config["log_paths"]["API_path"])
 
 model = joblib.load(config["trained_models_filename"]["student_model"])
 
@@ -21,7 +24,7 @@ def show():
 
 def get_predictions():
     try:
-      data = request.get_json()
+      data = request.get_json() 
 
       inputed_data =pd.DataFrame([data], columns=['Gender', 'Age',
           'Department', 'Attendance (%)', 'Midterm_Score',
