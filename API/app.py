@@ -17,7 +17,7 @@ app = Flask(__name__)
 @app.route('/test', methods =['GET'])
 
 def show():
-   return 'server is running'
+   return 'server is running alright'
 
 
 @app.route("/predict", methods= ["POST"])
