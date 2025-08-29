@@ -1,14 +1,17 @@
 {
 
   "log_paths": {
-    "pull_data_path": "logs/logs.txt"
+    "pull_data_path": "logs/logs.txt",
+    "train_path": "logs/logs.txt"
   },
 
   "log_name": {
-    "pull_data_log" : "pull_data_log"
+    "pull_data_log" : "pull_data_log",
+    "train_log" : "train_log"
+  },
+
+  "trained_models_filename": {
+    "student_model": "model/student_grade_model.pkl"
   }
-
-
-
 
 }
