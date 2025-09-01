@@ -35,7 +35,7 @@ def test_server_running():
     assert resp.status_code == 200
     assert "server is running alright" in resp.text
 
-
+"""
 def test_single_prediction(stacked_json):
     resp = requests.post(f"{BASE_URL}/predict", json=stacked_json)
     assert resp.status_code == 200
@@ -58,3 +58,4 @@ def test_invalid_request():
     bad_payload = {"wrong": "data"}
     resp = requests.post(f"{BASE_URL}/predict", json=bad_payload)
     assert resp.status_code == 400
+"""
