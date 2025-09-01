@@ -42,5 +42,3 @@ def test_conn(conn):
 
   assert db_conn is not None, "if none, database isnt connected" 
 
-
-def 
