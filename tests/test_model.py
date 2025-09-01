@@ -1,4 +1,6 @@
 import joblib
+import numpy as np
+import pandas as pd
 import pytest
 from utils.config_helper import get_config
 
@@ -12,7 +14,7 @@ def get_model():
 
 @pytest.fixture
 def datas():
-    return {
+    return pd.DataFrame([{
         "Gender": "Male",
         "Age": 21,
         "Department": "Engineering",
@@ -28,5 +30,18 @@ def datas():
         "Parent_Education_Level": "College",
         "Family_Income_Level": "Medium",
         "Stress_Level (1-10)": 5,
-        "Sleep_Hours_per_Night": 7,
-    }
+        "Sleep_Hours_per_Night": 7
+    }])
+
+
+def test_model(get_model,datas):
+  model = get_model
+  data = datas
+  predictions = model.predict(data)
+  assert predictions is not None
+  assert predictions[0] > 73
+  assert isinstance(predictions,np.ndarray)
+
+
+
+   

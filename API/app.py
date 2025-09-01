@@ -36,7 +36,7 @@ def get_predictions():
           'Sleep_Hours_per_Night']) 
       predictions = model.predict(inputed_data)
       
-      logger.info(f"{prediction} is the predictions")
+      logger.info("predictions is ready!")
       
       prediction = np.array(predictions).tolist()
       
