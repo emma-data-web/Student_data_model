@@ -35,6 +35,7 @@ def test_server_running():
     assert resp.status_code == 200
     assert "server is running alright" in resp.text
 
+# commmented it out cause i would probally not have this server running. if you intend to clone, strat up the serveer and remove the comment to run all test. thank you
 """
 def test_single_prediction(stacked_json):
     resp = requests.post(f"{BASE_URL}/predict", json=stacked_json)
