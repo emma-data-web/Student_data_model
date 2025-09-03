@@ -28,12 +28,13 @@ def stacked_json():
         "Sleep_Hours_per_Night": 7,
     }
 
-
+"""
 # ----------- TESTS -----------
 def test_server_running():
     resp = requests.get(f"{BASE_URL}/test")
     assert resp.status_code == 200
     assert "server is running alright" in resp.text
+"""
 
 # commmented it out cause i would probally not have this server running. if you intend to clone, strat up the serveer and remove the comment to run all test. thank you
 """

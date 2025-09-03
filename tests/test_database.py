@@ -2,7 +2,7 @@ from database.pull_data import get_new_data
 import pandas as pd
 from database.pull_data import db_conn
 import pytest
-
+"""
 @pytest.fixture
 def data():
   data = get_new_data()
@@ -42,3 +42,4 @@ def test_conn(conn):
 
   assert db_conn is not None, "if none, database isnt connected" 
 
+"""
