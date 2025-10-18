@@ -24,9 +24,9 @@ def show():
 
 def get_predictions():
     try:
-      logger.info(f"starting to predict!!")
+      #logger.info(f"starting to predict!!")
       data = request.get_json() 
-      logger.info(f"{len(data)} keys recieved!")
+      #logger.info(f"{len(data)} keys recieved!")
       inputed_data =pd.DataFrame([data], columns=['Gender', 'Age',
           'Department', 'Attendance (%)', 'Midterm_Score',
           'Assignments_Avg', 'Quizzes_Avg', 'Participation_Score',
@@ -36,7 +36,7 @@ def get_predictions():
           'Sleep_Hours_per_Night']) 
       predictions = model.predict(inputed_data)
       
-      logger.info("predictions is ready!")
+     # logger.info("predictions is ready!")
       
       prediction = np.array(predictions).tolist()
       

@@ -35,7 +35,7 @@ def test_server_running():
     assert resp.status_code == 200
     assert "server is running alright" in resp.text
 """
-
+# pls the index on request call should be neglected and the route server shoould not give response
 # commmented it out cause i would probally not have this server running. if you intend to clone, strat up the serveer and remove the comment to run all test. thank you
 """
 def test_single_prediction(stacked_json):
